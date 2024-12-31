@@ -1,6 +1,6 @@
 #!make
 ########################## Variables #####################
-HERE := $(dir $(realpath $(firstword $(MAKEFILE_LIST))))
+HERE := $(realpath $(dir $(firstword $(MAKEFILE_LIST))))
 SHELL := /bin/bash
 COMPOSER_ACTION ?= update
 ##########################################################
